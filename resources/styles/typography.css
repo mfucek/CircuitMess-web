@@ -1,0 +1,79 @@
+#header a {
+    color: white;
+}
+a { text-decoration: none; color: inherit; }
+h1,h2,h3,h5 {
+    font-family: 'Poppins', sans-serif;
+}
+h4,a,p,p2,#header {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 54px;
+    line-height: 1.03;
+    font-weight: 700;
+
+    margin: 0 0 10px 0;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+a,p {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 2.5rem;
+    margin: 0;
+}
+
+p2 {
+    font-size: 14px;
+    font-weight: bold;
+
+    margin: 0;
+}
+
+#header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (max-width: 1240px) {
+    h1 { font-size: 48px; }
+
+    h2 { font-size: 28px; line-height: 1.42;
+        margin: 0 0 10px 0; }
+
+    h3 { font-size: 21px; }
+
+    h4 { font-size: 18px; }
+
+    h5 { font-size: 12px; }
+
+    a,p { font-size: 14px;
+        line-height: 1.71;
+        margin-bottom: 1em;}
+
+    p2 { font-size: 14px; }
+
+    #header { font-size: 18px; } 
+}
